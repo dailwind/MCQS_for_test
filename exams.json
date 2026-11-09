@@ -1,0 +1,613 @@
+{
+ "version": "1.0",
+ "note": "Practice patterns based on the latest public notices found (Nov 2026). Patterns can change every year; always confirm on the official website. Urdu, essay and figure-based (non-verbal) sections are not included because the app is English and text-only.",
+ "categories": [
+  {
+   "id": "admission",
+   "name": "University Admission & Entry Tests",
+   "exams": [
+    {
+     "id": "mdcat",
+     "name": "MDCAT",
+     "body": "PMDC (provincial universities)",
+     "forWho": "MBBS / BDS admission",
+     "totalMcqs": 180,
+     "minutes": 180,
+     "negativeMarking": false,
+     "passPercent": 55,
+     "passNote": "55% for medical, 50% for dental colleges",
+     "sections": [
+      {
+       "label": "Biology",
+       "count": 81,
+       "pool": {
+        "subject": [
+         "Biology"
+        ]
+       }
+      },
+      {
+       "label": "Chemistry",
+       "count": 45,
+       "pool": {
+        "subject": [
+         "Chemistry"
+        ]
+       }
+      },
+      {
+       "label": "Physics",
+       "count": 36,
+       "pool": {
+        "subject": [
+         "Physics"
+        ]
+       }
+      },
+      {
+       "label": "English",
+       "count": 9,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "Logical Reasoning",
+       "count": 9,
+       "pool": {
+        "section": [
+         "analytical"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "ecat",
+     "name": "ECAT (UET)",
+     "body": "UET Lahore",
+     "forWho": "Engineering admission",
+     "totalMcqs": 100,
+     "minutes": 100,
+     "negativeMarking": false,
+     "marksPerQuestion": 4,
+     "passPercent": null,
+     "passNote": "No negative marking announced for Fall 2026; earlier sittings deducted 1 mark per wrong answer",
+     "sections": [
+      {
+       "label": "Mathematics",
+       "count": 30,
+       "pool": {
+        "subject": [
+         "Mathematics"
+        ]
+       }
+      },
+      {
+       "label": "Physics",
+       "count": 30,
+       "pool": {
+        "subject": [
+         "Physics"
+        ]
+       }
+      },
+      {
+       "label": "Chemistry / Computer Science",
+       "count": 30,
+       "pool": {
+        "subject": [
+         "Chemistry",
+         "Computer Science"
+        ]
+       }
+      },
+      {
+       "label": "English",
+       "count": 10,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "net",
+     "name": "NUST NET (Engineering)",
+     "body": "NUST",
+     "forWho": "Engineering & Computing admission",
+     "totalMcqs": 200,
+     "minutes": 180,
+     "negativeMarking": false,
+     "passPercent": null,
+     "passNote": "2026 pattern: Mathematics 100, Physics 60, English 40. Older pattern also had Chemistry and Intelligence",
+     "sections": [
+      {
+       "label": "Mathematics",
+       "count": 100,
+       "pool": {
+        "subject": [
+         "Mathematics"
+        ]
+       }
+      },
+      {
+       "label": "Physics",
+       "count": 60,
+       "pool": {
+        "subject": [
+         "Physics"
+        ]
+       }
+      },
+      {
+       "label": "English",
+       "count": 40,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "lat",
+     "name": "LAT (Law Admission Test)",
+     "body": "HEC / ETC",
+     "forWho": "LLB admission",
+     "totalMcqs": 65,
+     "minutes": 75,
+     "negativeMarking": false,
+     "passPercent": 50,
+     "passNote": "Real test is 100 marks including essay (15), personal statement (10) and Urdu MCQs; this mock covers the English-medium MCQ part",
+     "sections": [
+      {
+       "label": "English",
+       "count": 20,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "General Knowledge",
+       "count": 20,
+       "pool": {
+        "subject": [
+         "General Knowledge",
+         "Everyday Science"
+        ]
+       }
+      },
+      {
+       "label": "Islamic Studies",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Islamic Studies"
+        ]
+       }
+      },
+      {
+       "label": "Pakistan Studies",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Pakistan Studies",
+         "Constitution of Pakistan"
+        ]
+       }
+      },
+      {
+       "label": "Basic Mathematics",
+       "count": 5,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "hat",
+     "name": "HEC HAT (MS/MPhil/PhD)",
+     "body": "HEC / ETC",
+     "forWho": "Graduate admission & HEC scholarships",
+     "totalMcqs": 100,
+     "minutes": 120,
+     "negativeMarking": false,
+     "passPercent": 50,
+     "passNote": "50% for MS/MPhil, 60% for PhD; section weights depend on HAT category (already in the app)",
+     "useHatCategoryWeights": true,
+     "sections": [
+      {
+       "label": "Verbal",
+       "count": 40,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "Analytical",
+       "count": 30,
+       "pool": {
+        "section": [
+         "analytical"
+        ]
+       }
+      },
+      {
+       "label": "Quantitative",
+       "count": 30,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "forces",
+   "name": "Armed Forces",
+   "exams": [
+    {
+     "id": "issb-verbal",
+     "name": "Verbal Intelligence Test (ISSB / Initial Test style)",
+     "body": "Pak Army, PAF, Pak Navy selection centres",
+     "forWho": "PMA Long Course, PAF, Navy and other commissions",
+     "totalMcqs": 80,
+     "minutes": 30,
+     "negativeMarking": false,
+     "passPercent": null,
+     "passNote": "Real tests have about 80–90 verbal questions in 30–40 minutes; the non-verbal (figure) test is not included",
+     "sections": [
+      {
+       "label": "Verbal Intelligence",
+       "count": 60,
+       "pool": {
+        "section": [
+         "analytical"
+        ]
+       }
+      },
+      {
+       "label": "Word Relations",
+       "count": 20,
+       "pool": {
+        "section": [
+         "verbal"
+        ],
+        "topic": [
+         "Analogies",
+         "Synonyms",
+         "Antonyms",
+         "Word Meaning"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "forces-academic",
+     "name": "Academic Test (PMA / PAF / Navy style)",
+     "body": "Armed forces recruitment centres",
+     "forWho": "Initial academic test",
+     "totalMcqs": 50,
+     "minutes": 35,
+     "negativeMarking": false,
+     "passPercent": null,
+     "passNote": "Approximate practice format; real tests vary by course",
+     "sections": [
+      {
+       "label": "English",
+       "count": 15,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "Mathematics",
+       "count": 10,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      },
+      {
+       "label": "General Knowledge",
+       "count": 8,
+       "pool": {
+        "subject": [
+         "General Knowledge"
+        ]
+       }
+      },
+      {
+       "label": "Pakistan Studies",
+       "count": 7,
+       "pool": {
+        "subject": [
+         "Pakistan Studies",
+         "Constitution of Pakistan"
+        ]
+       }
+      },
+      {
+       "label": "Islamic Studies",
+       "count": 5,
+       "pool": {
+        "subject": [
+         "Islamic Studies"
+        ]
+       }
+      },
+      {
+       "label": "Everyday Science",
+       "count": 5,
+       "pool": {
+        "subject": [
+         "Everyday Science"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jobs",
+   "name": "Jobs & Public Service Exams",
+   "exams": [
+    {
+     "id": "css-mpt",
+     "name": "CSS MPT (Screening Test)",
+     "body": "FPSC",
+     "forWho": "CSS competitive exam",
+     "totalMcqs": 180,
+     "minutes": 180,
+     "negativeMarking": false,
+     "passPercent": 33,
+     "passNote": "Real MPT: 200 MCQs, 200 minutes, pass 66/200 (33%). The 20 Urdu MCQs are not included here",
+     "sections": [
+      {
+       "label": "Islamic Studies",
+       "count": 20,
+       "pool": {
+        "subject": [
+         "Islamic Studies"
+        ]
+       }
+      },
+      {
+       "label": "English",
+       "count": 50,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "Basic Arithmetic, Algebra & Geometry",
+       "count": 30,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      },
+      {
+       "label": "Logical & Mental Abilities",
+       "count": 30,
+       "pool": {
+        "section": [
+         "analytical"
+        ]
+       }
+      },
+      {
+       "label": "Everyday Science",
+       "count": 15,
+       "pool": {
+        "subject": [
+         "Everyday Science",
+         "Biology",
+         "Physics",
+         "Chemistry"
+        ]
+       }
+      },
+      {
+       "label": "Pakistan Affairs",
+       "count": 20,
+       "pool": {
+        "subject": [
+         "Pakistan Studies",
+         "Constitution of Pakistan"
+        ]
+       }
+      },
+      {
+       "label": "General Knowledge",
+       "count": 15,
+       "pool": {
+        "subject": [
+         "General Knowledge"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "ppsc",
+     "name": "PPSC One-Paper General Ability Test",
+     "body": "PPSC (similar style: FPSC, SPSC, KPPSC, BPSC)",
+     "forWho": "Government jobs",
+     "totalMcqs": 100,
+     "minutes": 90,
+     "negativeMarking": false,
+     "passPercent": 40,
+     "passNote": "Exact subject split varies by post; check the post's syllabus",
+     "sections": [
+      {
+       "label": "General Knowledge",
+       "count": 15,
+       "pool": {
+        "subject": [
+         "General Knowledge"
+        ]
+       }
+      },
+      {
+       "label": "Pakistan Studies",
+       "count": 15,
+       "pool": {
+        "subject": [
+         "Pakistan Studies",
+         "Constitution of Pakistan"
+        ]
+       }
+      },
+      {
+       "label": "Islamic Studies",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Islamic Studies"
+        ]
+       }
+      },
+      {
+       "label": "Everyday Science",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Everyday Science"
+        ]
+       }
+      },
+      {
+       "label": "English",
+       "count": 20,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "Basic Mathematics",
+       "count": 15,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      },
+      {
+       "label": "Computer Studies",
+       "count": 15,
+       "pool": {
+        "subject": [
+         "Computer & IT Basics"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "testing-services",
+     "name": "Testing Services Job Test (NTS / PTS / OTS / ETEA style)",
+     "body": "NTS, PTS, OTS, ETEA and similar",
+     "forWho": "Federal and provincial jobs",
+     "totalMcqs": 100,
+     "minutes": 90,
+     "negativeMarking": false,
+     "passPercent": 50,
+     "passNote": "Typical general pattern; each job advertisement gives its own syllabus",
+     "sections": [
+      {
+       "label": "English",
+       "count": 20,
+       "pool": {
+        "section": [
+         "verbal"
+        ]
+       }
+      },
+      {
+       "label": "General Knowledge",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "General Knowledge"
+        ]
+       }
+      },
+      {
+       "label": "Pakistan Studies",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Pakistan Studies",
+         "Constitution of Pakistan"
+        ]
+       }
+      },
+      {
+       "label": "Islamic Studies",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Islamic Studies"
+        ]
+       }
+      },
+      {
+       "label": "Mathematics",
+       "count": 20,
+       "pool": {
+        "section": [
+         "quantitative"
+        ]
+       }
+      },
+      {
+       "label": "Analytical / Intelligence",
+       "count": 20,
+       "pool": {
+        "section": [
+         "analytical"
+        ]
+       }
+      },
+      {
+       "label": "Computer",
+       "count": 10,
+       "pool": {
+        "subject": [
+         "Computer & IT Basics"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
