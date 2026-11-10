@@ -17,7 +17,7 @@ What to change:
 3. If there is no internet or the download/hash fails, keep the current data and do not crash. Keep the bundled JSON in assets as first-run fallback.
 4. Keep user progress (answered, correct, bookmarks, stats) keyed by a hash of the question text, not by id, so progress survives updates.
 5. Build the subject list dynamically from the data (or manifest.subjects). Do not hard-code subjects or counts. Unknown subjects get a default icon and colour.
-6. Show total question count and "Data version" on the home or settings screen. Show a small snackbar like "Updated: 6,954 MCQs" after a successful update.
+6. Show total question count and "Data version" on the home or settings screen. Show a small snackbar like "Updated: 7,724 MCQs" after a successful update.
 7. Make sure AndroidManifest.xml has the INTERNET permission. Do downloads on Dispatchers.IO with OkHttp or HttpURLConnection, 30 s timeout. The file is a few MB, so stream-parse it.
 
 Return only the files you changed, with full contents, and a short list of what changed.
