@@ -1,11 +1,24 @@
 {
   "app": "MedMCQ",
   "schemaVersion": 1,
-  "dataVersion": "2026-11-09-1",
-  "totalQuestions": 5883,
-  "sha256": "cabc45c06cc21130fdcab0d75961861b21fd580a6ad6c0cd9510f88d6e9d0de9",
+  "dataVersion": "2026-11-10-1",
+  "totalQuestions": 6346,
+  "sha256": "18fb62908f6adf6cd7070b641f6c8568e14d7d9621a9d6462ef0cd8615457849",
   "fullFile": "medical_mcqs.json",
   "subjects": [
+    {
+      "subject": "Clinical Pathology",
+      "file": "subjects/clinical-pathology.json",
+      "count": 719,
+      "topics": [
+        "Chemical Pathology",
+        "Genetics",
+        "Haematology",
+        "Histopathology",
+        "Immunology",
+        "Microbiology"
+      ]
+    },
     {
       "subject": "Anatomy",
       "file": "subjects/anatomy.json",
@@ -25,19 +38,6 @@
         "Spinal Cord",
         "Thorax",
         "Upper Limb"
-      ]
-    },
-    {
-      "subject": "Clinical Pathology",
-      "file": "subjects/clinical-pathology.json",
-      "count": 670,
-      "topics": [
-        "Chemical Pathology",
-        "Genetics",
-        "Haematology",
-        "Histopathology",
-        "Immunology",
-        "Microbiology"
       ]
     },
     {
@@ -156,7 +156,7 @@
     {
       "subject": "ENT",
       "file": "subjects/ent.json",
-      "count": 408,
+      "count": 446,
       "topics": [
         "Clinical Scenarios",
         "Clinical Skills",
@@ -167,6 +167,7 @@
         "Otology",
         "Paediatric ENT",
         "Rhinology",
+        "Throat",
         "Thyroid"
       ]
     },
@@ -194,6 +195,33 @@
         "Trauma",
         "Urology",
         "Vascular"
+      ]
+    },
+    {
+      "subject": "Community Medicine",
+      "file": "subjects/community-medicine.json",
+      "count": 297,
+      "topics": [
+        "Biostatistics",
+        "Clinical Scenarios",
+        "Communicable Disease",
+        "Demography",
+        "Disaster Management",
+        "Environmental Health",
+        "Epidemiology",
+        "Forensic Medicine",
+        "Health Education",
+        "Health Programmes",
+        "Health Promotion",
+        "Health Systems",
+        "Immunisation",
+        "Maternal & Child Health",
+        "Mental Health",
+        "Non-communicable Disease",
+        "Nutrition",
+        "Occupational Health",
+        "Prevention",
+        "Toxicology"
       ]
     },
     {
@@ -225,6 +253,45 @@
       ]
     },
     {
+      "subject": "Obstetrics & Gynaecology",
+      "file": "subjects/obstetrics-gynaecology.json",
+      "count": 275,
+      "topics": [
+        "Antenatal Care",
+        "Clinical Scenarios",
+        "Contraception",
+        "Early Pregnancy",
+        "Gynaecology",
+        "Labour",
+        "Obstetrics"
+      ]
+    },
+    {
+      "subject": "Paediatrics",
+      "file": "subjects/paediatrics.json",
+      "count": 257,
+      "topics": [
+        "Cardiology",
+        "Clinical Scenarios",
+        "Development",
+        "Endocrinology",
+        "Gastroenterology",
+        "General",
+        "Growth",
+        "Growth & Nutrition",
+        "Haematology",
+        "Immunisation",
+        "Infectious Disease",
+        "Musculoskeletal",
+        "Neonatology",
+        "Nephrology",
+        "Neurology",
+        "Nutrition",
+        "Respiratory",
+        "Safeguarding"
+      ]
+    },
+    {
       "subject": "Medical Interviews",
       "file": "subjects/medical-interviews.json",
       "count": 235,
@@ -245,92 +312,16 @@
       ]
     },
     {
-      "subject": "Community Medicine",
-      "file": "subjects/community-medicine.json",
-      "count": 229,
-      "topics": [
-        "Biostatistics",
-        "Clinical Scenarios",
-        "Communicable Disease",
-        "Demography",
-        "Disaster Management",
-        "Environmental Health",
-        "Epidemiology",
-        "Forensic Medicine",
-        "Health Education",
-        "Health Programmes",
-        "Health Systems",
-        "Immunisation",
-        "Maternal & Child Health",
-        "Mental Health",
-        "Non-communicable Disease",
-        "Nutrition",
-        "Occupational Health",
-        "Prevention",
-        "Toxicology"
-      ]
-    },
-    {
-      "subject": "Obstetrics & Gynaecology",
-      "file": "subjects/obstetrics-gynaecology.json",
-      "count": 215,
-      "topics": [
-        "Clinical Scenarios",
-        "Gynaecology",
-        "Obstetrics"
-      ]
-    },
-    {
-      "subject": "Paediatrics",
-      "file": "subjects/paediatrics.json",
-      "count": 206,
-      "topics": [
-        "Cardiology",
-        "Clinical Scenarios",
-        "Development",
-        "Endocrinology",
-        "Gastroenterology",
-        "General",
-        "Growth",
-        "Haematology",
-        "Immunisation",
-        "Infectious Disease",
-        "Musculoskeletal",
-        "Neonatology",
-        "Nephrology",
-        "Neurology",
-        "Nutrition",
-        "Respiratory",
-        "Safeguarding"
-      ]
-    },
-    {
-      "subject": "Ophthalmology",
-      "file": "subjects/ophthalmology.json",
-      "count": 125,
-      "topics": [
-        "Anatomy & Physiology",
-        "Clinical",
-        "Clinical Scenarios",
-        "Glaucoma",
-        "Lens",
-        "Neuro-ophthalmology",
-        "Paediatric Eye",
-        "Public Health",
-        "Red Eye",
-        "Retina",
-        "Trauma & Oculoplastics"
-      ]
-    },
-    {
       "subject": "Psychiatry",
       "file": "subjects/psychiatry.json",
-      "count": 96,
+      "count": 179,
       "topics": [
         "Anxiety",
         "Child Psychiatry",
         "Clinical Scenarios",
         "Eating Disorders",
+        "Emergency",
+        "Law & Ethics",
         "Mental Health Law",
         "Mental State Exam",
         "Mood Disorders",
@@ -345,13 +336,38 @@
       ]
     },
     {
+      "subject": "Ophthalmology",
+      "file": "subjects/ophthalmology.json",
+      "count": 175,
+      "topics": [
+        "Anatomy & Physiology",
+        "Basics",
+        "Clinical",
+        "Clinical Scenarios",
+        "Cornea",
+        "Glaucoma",
+        "Lens",
+        "Neuro",
+        "Neuro-ophthalmology",
+        "Paediatric",
+        "Paediatric Eye",
+        "Public Health",
+        "Red Eye",
+        "Retina",
+        "Trauma & Oculoplastics",
+        "Uvea"
+      ]
+    },
+    {
       "subject": "Dermatology",
       "file": "subjects/dermatology.json",
-      "count": 87,
+      "count": 151,
       "topics": [
         "Acne",
+        "Basics",
         "Bullous",
         "Clinical Scenarios",
+        "Emergencies",
         "Hair & Nails",
         "Infections",
         "Inflammatory",
