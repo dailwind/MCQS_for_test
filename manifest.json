@@ -1,15 +1,15 @@
 {
   "app": "MedMCQ",
   "schemaVersion": 1,
-  "dataVersion": "2026-11-10-1",
-  "totalQuestions": 6346,
-  "sha256": "18fb62908f6adf6cd7070b641f6c8568e14d7d9621a9d6462ef0cd8615457849",
+  "dataVersion": "2026-11-10-2",
+  "totalQuestions": 6954,
+  "sha256": "43ea15441d1fe75a09070545b54319f39570156c68323044748a4a305a271910",
   "fullFile": "medical_mcqs.json",
   "subjects": [
     {
       "subject": "Clinical Pathology",
       "file": "subjects/clinical-pathology.json",
-      "count": 719,
+      "count": 758,
       "topics": [
         "Chemical Pathology",
         "Genetics",
@@ -22,7 +22,7 @@
     {
       "subject": "Anatomy",
       "file": "subjects/anatomy.json",
-      "count": 702,
+      "count": 756,
       "topics": [
         "Abdomen",
         "Back",
@@ -43,7 +43,7 @@
     {
       "subject": "Medicine",
       "file": "subjects/medicine.json",
-      "count": 584,
+      "count": 742,
       "topics": [
         "Cardiology",
         "Clinical Scenarios",
@@ -69,12 +69,13 @@
     {
       "subject": "Physiology",
       "file": "subjects/physiology.json",
-      "count": 560,
+      "count": 634,
       "topics": [
         "Ageing",
         "Body Fluids",
         "Cardiovascular",
         "Cell Physiology",
+        "Clinical",
         "Clinical Scenarios",
         "Endocrine",
         "Exercise",
@@ -85,6 +86,7 @@
         "Muscle",
         "Neonatal Physiology",
         "Nerve",
+        "Neuro",
         "Neurophysiology",
         "Pain",
         "Pregnancy Physiology",
@@ -98,8 +100,10 @@
     {
       "subject": "Pathology",
       "file": "subjects/pathology.json",
-      "count": 537,
+      "count": 598,
       "topics": [
+        "Bone & Soft Tissue",
+        "Breast",
         "Cardiovascular",
         "Cell Injury",
         "Clinical Scenarios",
@@ -107,6 +111,7 @@
         "Endocrine",
         "Endocrine Pathology",
         "Environmental",
+        "GI",
         "GI Pathology",
         "Gastrointestinal",
         "General",
@@ -116,6 +121,7 @@
         "Immunopathology",
         "Infectious Pathology",
         "Inflammation",
+        "Liver",
         "Liver Pathology",
         "Male & Female Genital",
         "Musculoskeletal",
@@ -123,13 +129,14 @@
         "Nervous System",
         "Renal",
         "Renal Pathology",
-        "Respiratory"
+        "Respiratory",
+        "Skin"
       ]
     },
     {
       "subject": "Pharmacology",
       "file": "subjects/pharmacology.json",
-      "count": 530,
+      "count": 585,
       "topics": [
         "Anaesthesia",
         "Analgesia",
@@ -138,6 +145,7 @@
         "CNS",
         "Cardiovascular",
         "Clinical Scenarios",
+        "Clinical Use",
         "Drug Classes",
         "Drug Interactions",
         "Endocrine",
@@ -154,10 +162,42 @@
       ]
     },
     {
+      "subject": "Surgery",
+      "file": "subjects/surgery.json",
+      "count": 492,
+      "topics": [
+        "Acute Abdomen",
+        "Anaesthesia & Critical Care",
+        "Breast",
+        "Breast & Endocrine",
+        "Cardiothoracic",
+        "Clinical Scenarios",
+        "Colorectal",
+        "ENT & Head Neck Surgery",
+        "Endocrine Surgery",
+        "Ethics & Consent",
+        "GI Surgery",
+        "Hepatobiliary",
+        "Hernia",
+        "Neurosurgery",
+        "Orthopaedics",
+        "Paediatric Surgery",
+        "Perioperative",
+        "Plastic & Burns",
+        "Plastic Surgery",
+        "Principles",
+        "Trauma",
+        "Upper GI",
+        "Urology",
+        "Vascular"
+      ]
+    },
+    {
       "subject": "ENT",
       "file": "subjects/ent.json",
-      "count": 446,
+      "count": 462,
       "topics": [
+        "Clinical",
         "Clinical Scenarios",
         "Clinical Skills",
         "Ear",
@@ -172,29 +212,34 @@
       ]
     },
     {
-      "subject": "Surgery",
-      "file": "subjects/surgery.json",
-      "count": 404,
+      "subject": "Biochemistry",
+      "file": "subjects/biochemistry.json",
+      "count": 343,
       "topics": [
-        "Anaesthesia & Critical Care",
-        "Breast",
-        "Breast & Endocrine",
-        "Cardiothoracic",
+        "Acid-Base",
+        "Bioenergetics",
+        "Carbohydrates",
+        "Cell Biology",
+        "Clinical",
+        "Clinical Biochemistry",
         "Clinical Scenarios",
-        "ENT & Head Neck Surgery",
-        "Endocrine Surgery",
-        "Ethics & Consent",
-        "GI Surgery",
-        "Hernia",
-        "Neurosurgery",
-        "Orthopaedics",
-        "Paediatric Surgery",
-        "Perioperative",
-        "Plastic Surgery",
-        "Principles",
-        "Trauma",
-        "Urology",
-        "Vascular"
+        "Enzymes",
+        "Enzymes in Diagnosis",
+        "Free Radicals",
+        "Genetics",
+        "Genetics Biochemistry",
+        "Haem & Iron",
+        "Hormones",
+        "Lipids",
+        "Liver Biochemistry",
+        "Membrane Transport",
+        "Metabolism",
+        "Minerals",
+        "Molecular Biology",
+        "Nucleic Acids",
+        "Nutrition",
+        "Proteins",
+        "Vitamins"
       ]
     },
     {
@@ -222,34 +267,6 @@
         "Occupational Health",
         "Prevention",
         "Toxicology"
-      ]
-    },
-    {
-      "subject": "Biochemistry",
-      "file": "subjects/biochemistry.json",
-      "count": 295,
-      "topics": [
-        "Acid-Base",
-        "Bioenergetics",
-        "Carbohydrates",
-        "Cell Biology",
-        "Clinical Biochemistry",
-        "Clinical Scenarios",
-        "Enzymes",
-        "Enzymes in Diagnosis",
-        "Free Radicals",
-        "Genetics Biochemistry",
-        "Haem & Iron",
-        "Hormones",
-        "Lipids",
-        "Liver Biochemistry",
-        "Membrane Transport",
-        "Minerals",
-        "Molecular Biology",
-        "Nucleic Acids",
-        "Nutrition",
-        "Proteins",
-        "Vitamins"
       ]
     },
     {
@@ -294,7 +311,7 @@
     {
       "subject": "Medical Interviews",
       "file": "subjects/medical-interviews.json",
-      "count": 235,
+      "count": 250,
       "topics": [
         "Clinical Governance",
         "Clinical Scenarios",
@@ -302,6 +319,7 @@
         "Difficult Colleagues",
         "Difficult Scenarios",
         "Ethics",
+        "Ethics Scenarios",
         "Interview Technique",
         "Leadership",
         "Motivation",
